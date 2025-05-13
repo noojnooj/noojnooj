@@ -1,9 +1,10 @@
-import { Section } from "../Section"
+import { Section } from "./Section"
 
 export function Contact() {
   return (
     <Section id="contact" title="연락처">
-      <p>이메일:/</p>
+      <p>이메일:example@example.com</p>
+
     </Section>
 
     )

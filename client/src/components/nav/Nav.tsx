@@ -1,8 +1,9 @@
 import { Link } from "react-scroll"
+import styles from "./Nav.module.css"
 
 // nav버튼들의 id, 이름
 const navButtons = [
-  { id: "home", name: "Home" },
+  { id: "start", name: "Home" },
   { id: "about", name: "About" },
   { id: "skills", name: "Skills" },
   { id: "projects", name: "Projects" },
@@ -11,7 +12,7 @@ const navButtons = [
 
 export function Nav() {
   return (
-    <nav>
+    <nav className={styles.navMenu}>
       <ul>
         {/* button들 li로 감ㅅ싸기 */}
         {navButtons.map(({ id, name }) => (

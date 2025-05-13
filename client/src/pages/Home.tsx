@@ -1,4 +1,5 @@
-import { Nav } from "../components/Nav"
+import { Nav } from "../components/nav/Nav"
+import { Start } from "../components/sections/StartSection"
 import { About } from "../components/sections/AboutSection"
 import { Skills } from "../components/sections/SkillsSection"
 import { Projects } from "../components/sections/ProjectsSection"
@@ -6,12 +7,16 @@ import { Contact } from "../components/sections/ContactSection"
 
 
 export function Home() {
-  
+
   return (
     <div>
 
       <div>
        <Nav />
+      </div>
+
+      <div>
+        <Start />
       </div>
 
       <div>
