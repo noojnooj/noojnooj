@@ -11,9 +11,7 @@ export function Home() {
   return (
     <div>
 
-      <div>
        <Nav />
-      </div>
 
       <div>
         <Start />
