@@ -4,10 +4,12 @@ type Section = {
   children: React.ReactNode;
 };
 
+import styles from "./Section.module.css";
+
 export function Section({ id, title, children }: Section) {
   return (
     // section 인라인 속성
-    <section id={id} style={{ height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+    <section id={id} className={styles.sectionBlock}>
       <h1>{title}</h1>
       {children}
     </section>

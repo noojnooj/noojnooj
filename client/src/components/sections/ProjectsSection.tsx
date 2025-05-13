@@ -1,22 +1,25 @@
-import { Section } from "./Section"
+import { Section } from "./Section";
+import styles from "./Section.module.css";
 
 export function Projects() {
   return (
-    <Section id="projects" title="프로젝트">
-      <div>
-        <div>
-          <h1>개인 프로젝트</h1>
-          <div>
-            <p>야구 시뮬레이터</p>
-            <p>레시피 검색 사이트</p>
+    <Section id="projects" title="">
+      <div className={styles.projectWrap}>
+        <div className={styles.projectGroup}>
+          <h2>개인 프로젝트</h2>
+          <div className={styles.projectList}>
+            <div className={styles.projectItem}>프로젝트 1</div>
+            <div className={styles.projectItem}>프로젝트 2</div>
+            <div className={styles.projectItem}>프로젝트 3</div>
           </div>
         </div>
-        <div>
-          <h1>팀 프로젝트</h1>
-          <div>
-            <p>updown 게임</p>
-            <p>팀프로젝트 예시1</p>
-            <p>팀프로젝트 예시2</p>
+
+      <div className={styles.projectGroup}>
+        <h2>팀 프로젝트</h2>
+          <div className={styles.projectList}>
+            <div className={styles.projectItem}>프로젝트 A</div>
+            <div className={styles.projectItem}>프로젝트 B</div>
+            <div className={styles.projectItem}>프로젝트 C</div>
           </div>
         </div>
       </div>
