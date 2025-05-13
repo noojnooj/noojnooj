@@ -1,0 +1,41 @@
+/* 상단 nav메뉴 스타일 */
+
+.navMenu {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  background-color: #fff;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navMenu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  height: 100%;
+  padding: 0;
+}
+
+.navMenu li {
+  margin: 0 4rem;
+  font-size: 1.2rem;
+}
+
+.navMenu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.navMenu li a:hover {
+  color: #007acc;
+}
+
+/* 반응형도 추가해야할듯 fixed때문에 nav안줄어들음 */

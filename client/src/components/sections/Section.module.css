@@ -1,0 +1,42 @@
+.sectionBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fafafa;
+}
+
+.projectContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+}
+
+.projectGroup {
+  margin-bottom: 60px;
+  width: 100%;
+  text-align: center;
+}
+
+.projectList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  max-width: 1000px;
+  margin: 16px auto 0;
+}
+
+.projectItem {
+  width: 30%;
+  aspect-ratio: 4 / 3;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  min-width: 150px;
+}
