@@ -1,6 +1,6 @@
 {
-  "homepage": "https://noojnooj.github.io/client",
-  "name": "portfolio-client",
+  "homepage": "https://noojnooj.github.io/noojnooj/",
+  "name": "client",
   "private": true,
   "version": "0.0.0",
   "type": "module",
